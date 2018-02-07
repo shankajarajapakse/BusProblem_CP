@@ -3,10 +3,6 @@
  */
 public class Rider extends Thread {
 
-    public Rider()
-    {
-        System.out.println("Rider "+ this.getId()+ " created");
-    }
 
     public void boardBus()
     {

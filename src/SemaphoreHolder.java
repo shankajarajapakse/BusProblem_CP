@@ -17,7 +17,7 @@ public class SemaphoreHolder
 
     private SemaphoreHolder()
     {
-        System.out.println("Semaphores created");
+
     }
 
     public static synchronized SemaphoreHolder getInstance()
